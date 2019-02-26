@@ -5,19 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: FORESTRY-README.md
-  label: Welcome - First Steps
+  path: Home.md
+  label: Home
   read_only: true
 - type: jekyll-posts
-  label: Posts
+  label: About
   create: all
-- type: directory
-  path: ''
-  label: Pages
-  create: all
-  match: "*.md"
-  exclude: "*README.md"
-  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
