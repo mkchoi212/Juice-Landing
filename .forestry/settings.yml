@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: Pricing.md
+  label: Pricing
+  match: "**/*"
+- type: document
   path: Home.md
   label: Home
   read_only: true
