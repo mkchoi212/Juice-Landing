@@ -7,7 +7,6 @@ sections:
 - type: document
   path: Pricing.md
   label: Pricing
-  match: "**/*"
 - type: document
   path: Home.md
   label: Home
